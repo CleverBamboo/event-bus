@@ -50,6 +50,12 @@ tip: 在那里订阅就在注销
 var App = getApp()
 
 Page({
+    onLoad: function(){
+        App.event.on('afterPaySuccess',this.afterPaySuccess, this)
+    },
+    afterPaySuccess: function(orderId) {
+        // do sth
+    },
     onUnload: function(){
         // remove all
         App.event.off()
