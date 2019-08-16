@@ -1,0 +1,23 @@
+{
+  "name": "event-bus",
+  "version": "1.0.0",
+  "description": "App 是小程序的实例，在每个 Page 里都能通过执行 getApp 函数获取到它。我们可以把 Event 类的实例挂载在 App 中，方便每个 Page 去调用。",
+  "main": "event.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celverbamboo/event-bus.git"
+  },
+  "keywords": [
+    "event",
+    "bus"
+  ],
+  "author": "CleverBamboo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celverbamboo/event-bus/issues"
+  },
+  "homepage": "https://github.com/celverbamboo/event-bus#readme"
+}
