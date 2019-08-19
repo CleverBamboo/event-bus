@@ -1,6 +1,6 @@
 {
-  "name": "event-bus",
-  "version": "1.0.0",
+  "name": "@cleverbamboo/event-bus",
+  "version": "0.1.0",
   "description": "App 是小程序的实例，在每个 Page 里都能通过执行 getApp 函数获取到它。我们可以把 Event 类的实例挂载在 App 中，方便每个 Page 去调用。",
   "main": "dist/event.min.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "devDependencies": {
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
-  }
+  },
+  "dependencies": {}
 }
