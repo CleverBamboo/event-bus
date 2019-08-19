@@ -1,8 +1,9 @@
 {
   "name": "@cleverbamboo/event-bus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "App 是小程序的实例，在每个 Page 里都能通过执行 getApp 函数获取到它。我们可以把 Event 类的实例挂载在 App 中，方便每个 Page 去调用。",
   "main": "dist/event.min.js",
+  "miniprogram": "dist/event.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production webpack.config.js"
