@@ -45,7 +45,7 @@ export default class Event {
 
     // specific event
     var store = this._stores[event]
-    if (!stores) return
+    if (!store) return
 
     // remove all handlers
     if (arguments.length === 1) {
@@ -57,7 +57,7 @@ export default class Event {
     var cb
     for (var i = 0, len = store.length; i < len; i++) {
       cb = store[i].cb
-      if (cd === fn) {
+      if (cb === fn) {
         store.splice(i, 1)
         break
       }
